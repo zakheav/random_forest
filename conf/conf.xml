@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipe>
+	<worker>
+		<num>2</num>
+		<treeNum>10</treeNum>
+	</worker>
+	<master>
+		<ip>127.0.0.1</ip>
+		<port>8080</port>
+	</master>
+</recipe>
