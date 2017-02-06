@@ -2,7 +2,7 @@
 <recipe>
 	<worker>
 		<num>2</num>
-		<treeNum>10</treeNum>
+		<treeNum>5</treeNum>
 	</worker>
 	<master>
 		<ip>127.0.0.1</ip>

@@ -22,6 +22,7 @@ public class Send_msg_wait_ack implements Runnable {
 			if(!ack.isEmpty())
 				Master.ackList.set(no, ack);
 		} catch(IOException e) {
+			e.printStackTrace();
 			Master.workerCrash = true;
 			Master.socketList.set(no, null);
 		}
